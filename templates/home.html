@@ -10,19 +10,28 @@
         height: 360px;
         width: 100%;
         object-fit: cover;
+        margin-bottom: 16px;
       }
     </style>
   </head>
   <body>
+    {% include 'nav.html' %}
+    <img class="img-fluid" id="banner" src="https://career-climb.aashaykaurav.repl.co/static/banner.jpeg" height="320">
     <div class="container">
       <h1 class="text-center mt-2 mb-4">Career-Climb</h1>
-    <img class="img-fluid" id="banner" src="https://career-climb.aashaykaurav.repl.co/static/banner.jpeg" height="320">
-    <h2 class="text-center mt-2 mb-4">About</h2>
-    <p class="lead">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="lead">
       The future belongs to those who believe in the beauty of their dreams.
       
       Welcome to our career website, your one-stop-shop for all your job search needs. We understand how challenging it can be to navigate the job market, which is why we've created a platform that provides you with everything you need to succeed. Whether you're just starting your career or looking to make a change, our job search engine makes it easy to find the perfect opportunity. But we don't stop there - we also offer expert career advice, resources, and tools to help you build the skills you need to thrive. Join a community of career-driven individuals who share your passion for success and growth, and unlock your full potential with us. Let us help you find your dream job and take your career to the next level.
     </p>
+    </div>
+      <div class="d-none d-md-block col-md-6">
+        <img src="/static/people.jpeg" style="height:320px; border-radius:4px; margin-top:25px">
+      </div>
+    </div>
+    
     <h2 class="text-center mt-2 mb-4">Job Openings</h2>
     <p>
       <div>
@@ -32,9 +41,9 @@
       </div>
     </p>
       <div class="text-center">
-        <button class="btn btn-primary btn-sm">Contact us</button>
-        <p class="mt-4">Copyright 2023</p>
+        <a class="btn btn-primary btn-sm" href="mailto:aashay.kaurav@gmail.com?subject=Queries%20regarding%20job%20openings.&body=My%20Name%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AMy%20Query%3A%20%3Center%20your%20question%20here%3E">Contact us</a>
       </div>
     </div>
+    {% include 'footer.html' %}
   </body>
 </html>
