@@ -1,2 +1,2 @@
-# Career-Climb-Web-App
-A database driven dynamic web application which shows info about all the latest job openings.
+# Career-Climb
+A Career website to get notification about latest job openings and much more.
