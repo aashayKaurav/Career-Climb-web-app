@@ -1,2 +1,2 @@
-# Career-Hub
-A Career website to get notification about latest job openings.
+# Career-Climb
+A Career website to get notification about latest job openings and much more.
